@@ -1,5 +1,5 @@
 {
-  "name": "seed-element",
+  "name": "fort-touch-enabled",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -8,12 +8,12 @@
   "keywords": [
     "web-component",
     "polymer",
-    "seed"
+    "touchscreen"
   ],
   "private": true,
-  "main": "seed-element.html",
+  "main": "fort-touch-enabled.html",
   "license": "MIT",
-  "homepage": "https://github.com/FortifiElements/seed-element/",
+  "homepage": "https://github.com/FortifiElements/fort-touch-enabled/",
   "ignore": [
     "/.*",
     "/test/",

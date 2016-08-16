@@ -1,0 +1,41 @@
+<link href="../polymer/polymer.html" rel="import">
+
+<!--
+`fort-touch-enabled` can be used to data bind to the availability of touch control.
+The `is-touch` property is a boolean representing whether the device is touchscreen.
+
+Example:
+
+    <fort-touch-enabled is-touch="{{isTouch}}"></fort-touch-enabled>
+
+@element fort-touch-enabled
+@demo demo/index.html
+-->
+
+<script>
+  Polymer(
+    {
+      is:         'fort-touch-enabled',
+      properties: {
+        isTouch: {
+          type:     Boolean,
+          value:    false,
+          readOnly: true,
+          notify:   true
+        }
+      },
+      ready:      function ()
+                  {
+                    try
+                    {
+                      document.createEvent("TouchEvent");
+                      this._setIsTouch(true);
+                    }
+                    catch(e)
+                    {
+                      this._setIsTouch(false);
+                    }
+                  }
+    }
+  );
+</script>
