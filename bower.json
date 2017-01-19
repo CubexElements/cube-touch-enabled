@@ -1,5 +1,5 @@
 {
-  "name": "fort-touch-enabled",
+  "name": "cube-touch-enabled",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -11,9 +11,9 @@
     "touchscreen"
   ],
   "private": true,
-  "main": "fort-touch-enabled.html",
+  "main": "cube-touch-enabled.html",
   "license": "MIT",
-  "homepage": "https://github.com/FortifiElements/fort-touch-enabled/",
+  "homepage": "https://github.com/CubexElements/cube-touch-enabled/",
   "ignore": [
     "/.*",
     "/test/",

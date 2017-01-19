@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <title>fort-touch-enabled Demo</title>
+  <title>cube-touch-enabled Demo</title>
   <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
-  <link rel="import" href="../fort-touch-enabled.html">
+  <link rel="import" href="../cube-touch-enabled.html">
 </head>
 <body unresolved>
 
-<fort-touch-enabled is-touch="{{isTouch}}"></fort-touch-enabled>
+<cube-touch-enabled is-touch="{{isTouch}}"></cube-touch-enabled>
 
 <script>
-  var seedElement = document.querySelector('fort-touch-enabled');
+  var seedElement = document.querySelector('cube-touch-enabled');
   alert(seedElement.isTouch ? 'Touch Enabled' : 'Touch Not Enabled');
 </script>
 

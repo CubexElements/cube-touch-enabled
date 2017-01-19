@@ -1,6 +1,6 @@
-_[Demo and API docs](https://elements.fortifi.it/elements/fort-touch-enabled)_
+_[Demo and API docs](https://elements.cubex.io/elements/cube-touch-enabled)_
 
-##&lt;fort-touch-enabled&gt;
+##&lt;cube-touch-enabled&gt;
 
 An element providing a starting point for your own reusable Polymer elements.
 
@@ -30,4 +30,4 @@ And you can run it via:
     polyserve
 
 Once running, you can preview your element at
-`http://localhost:8080/components/fort-touch-enabled/`, where `fort-touch-enabled` is the name of the directory containing it.
+`http://localhost:8080/components/cube-touch-enabled/`, where `cube-touch-enabled` is the name of the directory containing it.
